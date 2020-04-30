@@ -1,4 +1,4 @@
-module tableorm
+module github.com/diemus/tableorm
 
 go 1.14
 
