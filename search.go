@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/aliyun/aliyun-tablestore-go-sdk/tablestore"
 	"github.com/aliyun/aliyun-tablestore-go-sdk/tablestore/search"
+	"github.com/diemus/tableorm/query"
 	"reflect"
-	"tableorm/query"
 )
 
 func (db *DB) Count(num *int) error {

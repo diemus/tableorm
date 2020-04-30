@@ -3,7 +3,7 @@ package tableorm
 import (
 	"github.com/aliyun/aliyun-tablestore-go-sdk/tablestore"
 	"github.com/aliyun/aliyun-tablestore-go-sdk/tablestore/search"
-	"tableorm/query"
+	"github.com/diemus/tableorm/query"
 )
 
 func NewDB(endPoint, instanceName, accessKeyId, accessKeySecret string, options ...tablestore.ClientOption) *DB {
