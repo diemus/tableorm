@@ -26,7 +26,7 @@ func And(queries ...search.Query) *search.BoolQuery {
 		mustQueries = append(mustQueries, q)
 	}
 	boolQuery := &search.BoolQuery{
-		MustNotQueries: mustQueries,
+		MustQueries: mustQueries,
 	}
 	return boolQuery
 }
